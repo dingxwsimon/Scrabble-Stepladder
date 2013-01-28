@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6667794F16B6B8FF00A32731 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6667794E16B6B8FF00A32731 /* main.cpp */; };
+		6667795116B6B90000A32731 /* ScrabbleStepladder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6667795016B6B8FF00A32731 /* ScrabbleStepladder.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6667794816B6B8FF00A32731 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6667795116B6B90000A32731 /* ScrabbleStepladder.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6667794A16B6B8FF00A32731 /* ScrabbleStepladder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScrabbleStepladder; sourceTree = BUILT_PRODUCTS_DIR; };
+		6667794E16B6B8FF00A32731 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6667795016B6B8FF00A32731 /* ScrabbleStepladder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ScrabbleStepladder.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6667794716B6B8FF00A32731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6667793F16B6B8FF00A32731 = {
+			isa = PBXGroup;
+			children = (
+				6667794D16B6B8FF00A32731 /* ScrabbleStepladder */,
+				6667794B16B6B8FF00A32731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6667794B16B6B8FF00A32731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6667794A16B6B8FF00A32731 /* ScrabbleStepladder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6667794D16B6B8FF00A32731 /* ScrabbleStepladder */ = {
+			isa = PBXGroup;
+			children = (
+				6667794E16B6B8FF00A32731 /* main.cpp */,
+				6667795016B6B8FF00A32731 /* ScrabbleStepladder.1 */,
+			);
+			path = ScrabbleStepladder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6667794916B6B8FF00A32731 /* ScrabbleStepladder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6667795416B6B90000A32731 /* Build configuration list for PBXNativeTarget "ScrabbleStepladder" */;
+			buildPhases = (
+				6667794616B6B8FF00A32731 /* Sources */,
+				6667794716B6B8FF00A32731 /* Frameworks */,
+				6667794816B6B8FF00A32731 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrabbleStepladder;
+			productName = ScrabbleStepladder;
+			productReference = 6667794A16B6B8FF00A32731 /* ScrabbleStepladder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6667794116B6B8FF00A32731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sam Bodanis";
+			};
+			buildConfigurationList = 6667794416B6B8FF00A32731 /* Build configuration list for PBXProject "ScrabbleStepladder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6667793F16B6B8FF00A32731;
+			productRefGroup = 6667794B16B6B8FF00A32731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6667794916B6B8FF00A32731 /* ScrabbleStepladder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6667794616B6B8FF00A32731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6667794F16B6B8FF00A32731 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6667795216B6B90000A32731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6667795316B6B90000A32731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6667795516B6B90000A32731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6667795616B6B90000A32731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6667794416B6B8FF00A32731 /* Build configuration list for PBXProject "ScrabbleStepladder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6667795216B6B90000A32731 /* Debug */,
+				6667795316B6B90000A32731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6667795416B6B90000A32731 /* Build configuration list for PBXNativeTarget "ScrabbleStepladder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6667795516B6B90000A32731 /* Debug */,
+				6667795616B6B90000A32731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6667794116B6B8FF00A32731 /* Project object */;
+}
